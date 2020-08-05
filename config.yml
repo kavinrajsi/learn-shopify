@@ -2,3 +2,14 @@ development:
   password: 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
   theme_id: "107479138457"
   store: frogcode.myshopify.com
+  proxy: http://localhost:3000
+  ignore_files:
+    - "*.gif"
+    - "*.jpg"
+    - config/settings_data.json
+production:
+  password: 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
+  theme_id: "107479138457"
+  store: frogcode.myshopify.com
+  timeout: 60s
+  readonly: true
